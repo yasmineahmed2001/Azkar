@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo2"
+    tools:context=".azkar_muslim">
+
+    <Button
+        android:id="@+id/morning"
+        android:layout_width="189dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/de1"
+        android:text="أذكار الصباح"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/night"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/night"
+        android:layout_width="189dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/de1"
+        android:text="أذكار المساء"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="189dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="4dp"
+        android:text="أذكار النوم"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:background="@drawable/de1"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="189dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/de1"
+        android:text="أذكار الصلاة"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="251dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:rotationX="2"
+        android:text="أذكار مسلم"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="normal|bold"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/morning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

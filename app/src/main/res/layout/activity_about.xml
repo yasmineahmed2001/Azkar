@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo1"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="115dp"
+        android:layout_marginLeft="55dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/about_textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_background"
+                android:text="تقوم فكرة تطبيق اذكار المسلم على جمع أكبر قدر ممكن من الأذكار، وإتاتحتها بين يد المسلم بطريقة سهلة وممتعة، الأمر الذي  يساعد من يريد في المداومة على الأذكار كما لو كان يملك أحد كتب حصن المسلم أو ما شابه ذلك، حيث توفر لك مثل هذه التطبيقات نفس الأذكار، ولكن في هاتفك، والذي دائماً ما يكون متاحاً معك، وبالتالي يجعلك تحرص على قراءة الأذكار بشكل مستمر."
+                android:textColor="#000000"
+                android:textColorHint="#C8CED1"
+                android:textSize="27dp"
+                tools:layout_editor_absoluteX="61dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
